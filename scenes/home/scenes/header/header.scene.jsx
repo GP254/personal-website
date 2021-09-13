@@ -1,6 +1,6 @@
 import React from 'react';
 import {Container, Row, Col, Image} from 'react-bootstrap';
-import working from '../../../../assets/working.jpg';
+import working from '../../../../public/assets/working.jpg';
 import {RiGithubLine, RiLinkedinLine} from 'react-icons/ri';
 
 const constants = {
@@ -44,7 +44,7 @@ const Header = () => (
           </Col>
           <Col md={6} className='my-auto d-none d-lg-block'>
             <Image
-              src={working}
+              src={working.src}
               roundedCircle
               fluid
             />

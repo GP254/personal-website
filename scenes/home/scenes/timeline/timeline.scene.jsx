@@ -4,8 +4,8 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import { MdWork, MdSchool } from 'react-icons/md';
 
-import ahc from '../../../../assets/ahc-main.png';
-import uw from '../../../../assets/uw.png';
+import ahc from '../../../../public/assets/ahc-main.png';
+import uw from '../../../../public/assets/uw.png';
 
 const constants = {
   HEADING: 'Timeline',
@@ -18,7 +18,7 @@ const constants = {
       description: 'Frontend Development, UI/UX Design',
       logo: {
         alt: 'Amans Henna Creations',
-        img: ahc
+        img: ahc.src
       }
     },
     {
@@ -29,7 +29,7 @@ const constants = {
       description: 'Advanced Mathematics, Computer Programming',
       logo: {
         alt: 'UW',
-        img: uw
+        img: uw.src
       }
     }
   ]

@@ -5,11 +5,11 @@ import {RiGithubLine} from 'react-icons/ri';
 import {FaAppStore} from 'react-icons/fa';
 import {RiGooglePlayLine} from 'react-icons/ri';
 
-import docucode from '../../../../assets/docucode.svg';
-import curiositree from '../../../../assets/curiositree.svg';
-import person from '../../../../assets/person.svg';
-import polynomial from '../../../../assets/polynomial.svg';
-import ahc from '../../../../assets/ahc.svg'
+import docucode from '../../../../public/assets/docucode.svg';
+import curiositree from '../../../../public/assets/curiositree.svg';
+import person from '../../../../public/assets/person.svg';
+import polynomial from '../../../../public/assets/polynomial.svg';
+import ahc from '../../../../public/assets/ahc.svg'
 
 import { ProjectCard } from './projects.styles';
 
@@ -19,7 +19,7 @@ const constants = {
     {
       title: 'Amans Henna Creations',
       description: 'Developed website and co-founded Amans Henna Creations, a local henna business.',
-      bgImg: ahc,
+      bgImg: ahc.src,
       icons: [
         {
           component: <MdOpenInNew fill='#2E77BD' size={20}/>,
@@ -31,7 +31,7 @@ const constants = {
     {
       title: 'Curositree',
       description: 'Developed front-end of learning app based on the first principles thinking with the goal of helping users to learn and understand concepts faster.',
-      bgImg: curiositree,
+      bgImg: curiositree.src,
       icons: [
         {
           component: <MdOpenInNew fill='#2E77BD' size={20}/>,
@@ -43,7 +43,7 @@ const constants = {
     {
       title: 'DocuCode',
       description: 'Developed Github documentation website for documenting github repositories and files in a minimalistic and organized fashion provided the users github repository link.',
-      bgImg: docucode,
+      bgImg: docucode.src,
       icons: [],
       pills: ['React', 'Next.js', 'Node', 'Bootstrap', 'Styled-Components', 'GitHub API']
     },
@@ -51,13 +51,13 @@ const constants = {
       title: 'Polynomial-Graphing-Tool',
       description: 'Developed Python GUI for users to graph any polynomial and it’s first and second derivatives.',
       icons: [],
-      bgImg: polynomial,
+      bgImg: polynomial.src,
       pills: ['Python', 'NumPy', 'Matplotlib']
     },
     {
       title: 'Personal Website',
       description: 'The page you are currently on. Developed website to showcase my work experience and past projects in greater detail.',
-      bgImg: person,
+      bgImg: person.src,
       icons: [
         {
           component: <RiGithubLine fill='#2E77BD' size={20}/>,

@@ -32,7 +32,11 @@ const constants = {
       title: 'Curositree',
       description: 'Developed front-end of learning app based on the first principles thinking with the goal of helping users to learn and understand concepts faster.',
       bgImg: curiositree.src,
-      icons: [],
+      icons: [
+      {
+        component: <MdOpenInNew fill='#2E77BD' size={20}/>,
+        url: 'http://curiositree.herokuapp.com'
+      }],
       pills: ['React', 'Next.js', 'Styled-Components']
     },
     {

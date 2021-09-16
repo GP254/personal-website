@@ -23,7 +23,7 @@ const constants = {
       icons: [
         {
           component: <MdOpenInNew fill='#2E77BD' size={20}/>,
-          url: 'https://determined-benz-f27f07.netlify.app'
+          url: 'https://amanshennacreations.netlify.app'
         }
       ],
       pills: ['React', 'Next.js', 'Node', 'Styled-Components']
@@ -32,20 +32,20 @@ const constants = {
       title: 'Curositree',
       description: 'Developed front-end of learning app based on the first principles thinking with the goal of helping users to learn and understand concepts faster.',
       bgImg: curiositree.src,
-      icons: [
-        {
-          component: <MdOpenInNew fill='#2E77BD' size={20}/>,
-          url: 'google.com'
-        }
-      ],
+      icons: [],
       pills: ['React', 'Next.js', 'Styled-Components']
     },
     {
       title: 'DocuCode',
       description: 'Developed Github documentation website for documenting github repositories and files in a minimalistic and organized fashion provided the users github repository link.',
       bgImg: docucode.src,
-      icons: [],
-      pills: ['React', 'Next.js', 'Node', 'Bootstrap', 'Styled-Components', 'GitHub API']
+      icons: [
+        {
+        component: <MdOpenInNew fill='#2E77BD' size={20}/>,
+        url: 'https://docucode.netlify.app'
+        }
+      ],
+      pills: ['React', 'Next.js', 'Bootstrap', 'Styled-Components', 'GitHub API', 'Node']
     },
     {
       title: 'Polynomial-Graphing-Tool',
@@ -65,7 +65,7 @@ const constants = {
         },
         {
           component: <MdOpenInNew fill='#2E77BD' size={20}/>,
-          url: 'http://localhost:3000'
+          url: 'https://gurkirat-panesar.netlify.app'
         }
       ],
       pills: ['React', 'Next.js', 'Bootstrap', 'Styled Components']

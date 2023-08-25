@@ -10,7 +10,7 @@ import Wave from '../../components/wave/wave.component';
 const LightWave = () => (
   <Wave
     fill='#EBEDEF'
-    bg='linear-gradient(90deg, #524AB9 0%, #1CA2C0 100%)'
+    bg='linear-gradient(90deg, #000000 0%, #1CA2C0 100%)'
   />
 );
 
@@ -21,7 +21,7 @@ const DarkWave = () => (
   >
     <defs>
       <linearGradient id="gradient">
-        <stop offset="0%"  stopColor="#524AB9" />
+        <stop offset="0%"  stopColor="#000000" />
         <stop offset="100%" stopColor="#1CA2C0" />
       </linearGradient>
     </defs>

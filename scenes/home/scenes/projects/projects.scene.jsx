@@ -73,7 +73,41 @@ const constants = {
         }
       ],
       pills: ['React', 'Next.js', 'Bootstrap', 'Styled Components']
-    }
+    },
+    {
+      title: 'Student-Performance-Data-Analysis',
+      description: "Conducted data analysis on student performance using Python, encompassing data visualization, statistical summaries, and linear regression models for math and writing scores.",
+      bgImg: polynomial.src,
+      icons: [
+        {
+          component: <MdOpenInNew fill='#2E77BD' size={20}/>,
+          url: 'https://github.com/GP254/Student-Performance-Data-Analysis/blob/main/Student%20Performance%20Data%20Analysis.ipynb'
+        }],
+      pills: ['Jupyter Notebook', 'Python', 'Numpy', 'Matplotlib', 'Sklearn', 'Seaborn', 'Plotly']
+    },
+    {
+      title: 'Nursing Workforce Spatial Data Analysis',
+      description: "Conducted thorough spatial analysis on Canadian nursing workforce data using ArcGIS extracting valuable insights from diverse datasets and visualized trends through data manipulation and visualization techniques.",
+      bgImg: polynomial.src,
+      icons: [
+        {
+          component: <MdOpenInNew fill='#2E77BD' size={20}/>,
+          url: 'https://github.com/GP254/Student-Performance-Data-Analysis/blob/main/Student%20Performance%20Data%20Analysis.ipynb'
+        }],
+      pills: ['ArcGIS', 'QGIS', 'Jupyter Notebook', 'Python', 'Matplotlib', 'Pandas']
+    },
+    {
+      title: 'Data Analysis Portfolio',
+      description: "Used ArcGIS Storymap to create a centralized location to display all my Data Science and GIS projects and\n" +
+        "experience in greater detail.",
+      bgImg: polynomial.src,
+      icons: [
+        {
+          component: <MdOpenInNew fill='#2E77BD' size={20}/>,
+          url: 'https://storymaps.arcgis.com/stories/9cf5a12abeed45498e54d7f279e720d2'
+        }],
+      pills: ['ArcGIS StoryMaps']
+    },
   ]
 }
 

@@ -6,7 +6,7 @@ import {RiGithubLine, RiLinkedinLine} from 'react-icons/ri';
 const constants = {
   INTRO: '👋 Hello! My name is',
   HEADING: "Gurkirat Panesar.",
-  SUBHEADING: "I'm a student at the University of Waterloo and a passionate Web Developer.",
+  SUBHEADING: "I am a University of Waterloo student with a strong interest in web development, aiming to grow my expertise across fields like GIS and Data Science",
   ICONS: [
     {
       component: <RiGithubLine size={25} fill='#FFFFFF'/>,
@@ -20,7 +20,7 @@ const Header = () => (
     fluid
     className="text-light pt-5 pb-5"
     style={{
-      background: 'linear-gradient(90deg, #524AB9 0%, #1CA2C0 100%)'
+      background: 'linear-gradient(90deg, #000000 0%, #1CA2C0 100%)'
     }}
   >
     <Row className='pt-5 pb-5'>

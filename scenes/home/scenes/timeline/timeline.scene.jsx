@@ -6,13 +6,25 @@ import { MdWork, MdSchool } from 'react-icons/md';
 
 import ahc from '../../../../public/assets/ahc-main.png';
 import uw from '../../../../public/assets/uw.png';
+import mcap from '../../../../public/assets/mcap.png';
 
 const constants = {
   HEADING: 'Timeline',
   EVENTS: [
     {
       type: 'job',
-      date: 'May 2021 - Present',
+      date: '2021 - Present',
+      jobTitle: 'Jr. QA Developer',
+      company: "MCAP Financial Corportation",
+      description: 'Automation Testing, Quality Assurance, API/Performance Testing',
+      logo: {
+        alt: 'MCAP Financial Corportation',
+        img: mcap.src
+      }
+    },
+    {
+      type: 'job',
+      date: '2021 - Present',
       jobTitle: 'Frontend Developer',
       company: "Amans Henna Creations",
       description: 'Frontend Development, UI/UX Design',
@@ -23,8 +35,19 @@ const constants = {
     },
     {
       type: 'school',
-      date: 'September 2020 - Present',
-      jobTitle: 'Mathematics Co-op',
+      date: '2022 - Present',
+      jobTitle: 'Geomatics Co-op',
+      company: 'University of Waterloo',
+      description: 'GIS, Computer Programming, Mathematics, Data Science',
+      logo: {
+        alt: 'UW',
+        img: uw.src
+      }
+    },
+    {
+      type: 'school',
+      date: '2020 - 2022',
+      jobTitle: 'Applied Mathematics w/ Scientific Computing Co-op',
       company: 'University of Waterloo',
       description: 'Advanced Mathematics, Computer Programming',
       logo: {

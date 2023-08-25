@@ -9,7 +9,7 @@ const Resume = () => (
   <Container
     fluid
     style={{
-      background: 'linear-gradient(90deg, #524AB9 0%, #1CA2C0 100%)'
+      background: 'linear-gradient(90deg, #000000 0%, #1CA2C0 100%)'
     }}
     className="text-light pb-5"
   >

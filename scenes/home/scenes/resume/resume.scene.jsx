@@ -22,7 +22,7 @@ const Resume = () => (
             height: '800px'
           }}
           name='Gurkirat Panesar Resume'
-          src='./resume.pdf'>
+          src='/resume.pdf'>
         </iframe>
       </Col>
     </Row>

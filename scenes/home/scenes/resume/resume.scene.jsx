@@ -22,7 +22,7 @@ const Resume = () => (
             height: '800px'
           }}
           name='Gurkirat Panesar Resume'
-          src='https://www.smartcaptech.com/wp-content/uploads/sample.pdf'>
+          src='./resume.pdf'>
         </iframe>
       </Col>
     </Row>

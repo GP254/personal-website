@@ -22,6 +22,10 @@ const constants = {
       bgImg: ahc.src,
       icons: [
         {
+          component: <RiGithubLine fill='#2E77BD' size={20}/>,
+          url: 'https://github.com/GP254/amanshennacreations2022'
+        },
+        {
           component: <MdOpenInNew fill='#2E77BD' size={20}/>,
           url: 'https://amanshennacreations.netlify.app'
         }
@@ -33,10 +37,15 @@ const constants = {
       description: 'Developed front-end of learning app based on the first principles thinking with the goal of helping users to learn and understand concepts faster.',
       bgImg: curiositree.src,
       icons: [
+        {
+          component: <RiGithubLine fill='#2E77BD' size={20}/>,
+          url: 'https://github.com/apanesar11/curiositree-frontend'
+        },
       {
         component: <MdOpenInNew fill='#2E77BD' size={20}/>,
         url: 'http://curiositree.herokuapp.com'
-      }],
+      }
+      ],
       pills: ['React', 'Next.js', 'Styled-Components']
     },
     {
@@ -44,6 +53,10 @@ const constants = {
       description: 'Developed Github documentation website for documenting github repositories and files in a minimalistic and organized fashion provided the users github repository link.',
       bgImg: docucode.src,
       icons: [
+        {
+          component: <RiGithubLine fill='#2E77BD' size={20}/>,
+          url: 'https://github.com/GP254/docu-code'
+        },
         {
         component: <MdOpenInNew fill='#2E77BD' size={20}/>,
         url: 'https://docucode.netlify.app'
@@ -54,7 +67,10 @@ const constants = {
     {
       title: 'Polynomial-Graphing-Tool',
       description: 'Developed Python GUI for users to graph any polynomial and it’s first and second derivatives.',
-      icons: [],
+      icons: [{
+        component: <RiGithubLine fill='#2E77BD' size={20}/>,
+        url: 'https://github.com/GP254/polynomial-graphing-tool'
+      }],
       bgImg: polynomial.src,
       pills: ['Python', 'NumPy', 'Matplotlib']
     },
@@ -65,7 +81,7 @@ const constants = {
       icons: [
         {
           component: <RiGithubLine fill='#2E77BD' size={20}/>,
-          url: 'https://github.com/GP254'
+          url: 'https://github.com/GP254/personal-website'
         },
         {
           component: <MdOpenInNew fill='#2E77BD' size={20}/>,
@@ -80,7 +96,7 @@ const constants = {
       bgImg: polynomial.src,
       icons: [
         {
-          component: <MdOpenInNew fill='#2E77BD' size={20}/>,
+          component: <RiGithubLine fill='#2E77BD' size={20}/>,
           url: 'https://github.com/GP254/Student-Performance-Data-Analysis/blob/main/Student%20Performance%20Data%20Analysis.ipynb'
         }],
       pills: ['Jupyter Notebook', 'Python', 'Numpy', 'Matplotlib', 'Sklearn', 'Seaborn', 'Plotly']
@@ -91,8 +107,8 @@ const constants = {
       bgImg: polynomial.src,
       icons: [
         {
-          component: <MdOpenInNew fill='#2E77BD' size={20}/>,
-          url: 'https://github.com/GP254/Student-Performance-Data-Analysis/blob/main/Student%20Performance%20Data%20Analysis.ipynb'
+          component: <RiGithubLine fill='#2E77BD' size={20}/>,
+          url: 'https://github.com/GP254/Canadian-Nursing-Workforce-and-Facility-Analysis/blob/main/Canadian-Nursing-Workforce-and-Facility-Analysis.ipynb'
         }],
       pills: ['ArcGIS', 'QGIS', 'Jupyter Notebook', 'Python', 'Matplotlib', 'Pandas']
     },

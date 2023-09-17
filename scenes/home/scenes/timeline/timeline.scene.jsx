@@ -13,7 +13,7 @@ const constants = {
   EVENTS: [
     {
       type: 'job',
-      date: '2021 - Present',
+      date: 'Jan 2022 – Apr 2022',
       jobTitle: 'Jr. QA Developer',
       company: "MCAP Financial Corportation",
       description: 'Automation Testing, Quality Assurance, API/Performance Testing',
@@ -24,7 +24,7 @@ const constants = {
     },
     {
       type: 'job',
-      date: '2021 - Present',
+      date: 'Jan 2020 – May 2020',
       jobTitle: 'Frontend Developer',
       company: "Amans Henna Creations",
       description: 'Frontend Development, UI/UX Design',

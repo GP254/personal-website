@@ -7,10 +7,22 @@ import { MdWork, MdSchool } from 'react-icons/md';
 import ahc from '../../../../public/assets/ahc-main.png';
 import uw from '../../../../public/assets/uw.png';
 import mcap from '../../../../public/assets/mcap.png';
+import york from '../../../../public/assets/york.png';
 
 const constants = {
   HEADING: 'Timeline',
   EVENTS: [
+    {
+      type: 'job',
+      date: 'Jan 2024 – Apr 2024',
+      jobTitle: 'Data Analytics Technician',
+      company: "York Region - Corporate Services",
+      description: 'Data Science, Geographic Information Systems (GIS), Urban Planning',
+      logo: {
+        alt: 'York Region',
+        img: york.src
+      }
+    },
     {
       type: 'job',
       date: 'Jan 2022 – Apr 2022',

@@ -19,8 +19,8 @@ const constants = {
       company: "University Of Waterloo",
       description: 'Data Science, Geographic Information Systems (GIS), Airphoto & Data Repository',
       logo: {
-        alt: 'York Region',
-        img: uw.png
+        alt: 'Waterloo Logo',
+        img: uw.src
       }
     },
     {

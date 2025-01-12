@@ -2,14 +2,13 @@ import React from 'react';
 import {Container, Row, Col, Badge} from 'react-bootstrap';
 import {MdOpenInNew} from 'react-icons/md';
 import {RiGithubLine} from 'react-icons/ri';
-import {FaAppStore} from 'react-icons/fa';
-import {RiGooglePlayLine} from 'react-icons/ri';
 
 import docucode from '../../../../public/assets/docucode.svg';
 import curiositree from '../../../../public/assets/curiositree.svg';
 import person from '../../../../public/assets/person.svg';
 import polynomial from '../../../../public/assets/polynomial.svg';
 import ahc from '../../../../public/assets/ahc.svg'
+import gis from '../../../../public/assets/gisanalysis.png'
 
 import { ProjectCard } from './projects.styles';
 
@@ -19,7 +18,7 @@ const constants = {
     {
       title: 'Crime Analysis of Waterloo Region ArcPy',
       description: "Conducted spatial and  crime analysis of Waterloo Region using ArcPy, automating workflows, and identifying crime trends to support public safety and urban planning.",
-      bgImg: gisanalysis.png,
+      bgImg: gis.png,
       icons: [
         {
           component: <RiGithubLine fill='#2E77BD' size={20}/>,
@@ -30,7 +29,7 @@ const constants = {
     {
       title: 'Nursing Workforce Spatial Data Analysis',
       description: "Conducted thorough spatial analysis on Canadian nursing workforce data using ArcGIS extracting valuable insights from diverse datasets and visualized trends through data manipulation and visualization techniques.",
-      bgImg: gisanalysis.png,
+      bgImg: gis.png,
       icons: [
         {
           component: <RiGithubLine fill='#2E77BD' size={20}/>,
@@ -41,7 +40,7 @@ const constants = {
     {
       title: 'Student-Performance-Data-Analysis',
       description: "Conducted data analysis on student performance using Python, encompassing data visualization, statistical summaries, and linear regression models for math and writing scores.",
-      bgImg: gisanalysis.png,
+      bgImg: gis.png,
       icons: [
         {
           component: <RiGithubLine fill='#2E77BD' size={20}/>,
@@ -53,7 +52,7 @@ const constants = {
       title: 'Data Analysis Portfolio',
       description: "Used ArcGIS Storymap to create a centralized location to display all my Data Science and GIS projects and\n" +
           "experience in greater detail.",
-      bgImg: gisanalysis.png,
+      bgImg: gis.png,
       icons: [
         {
           component: <MdOpenInNew fill='#2E77BD' size={20}/>,

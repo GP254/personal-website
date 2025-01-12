@@ -18,7 +18,7 @@ const constants = {
     {
       title: 'Crime Analysis of Waterloo Region ArcPy',
       description: "Conducted spatial and  crime analysis of Waterloo Region using ArcPy, automating workflows, and identifying crime trends to support public safety and urban planning.",
-      bgImg: gis.png,
+      bgImg: gis.src,
       icons: [
         {
           component: <RiGithubLine fill='#2E77BD' size={20}/>,
@@ -29,7 +29,7 @@ const constants = {
     {
       title: 'Nursing Workforce Spatial Data Analysis',
       description: "Conducted thorough spatial analysis on Canadian nursing workforce data using ArcGIS extracting valuable insights from diverse datasets and visualized trends through data manipulation and visualization techniques.",
-      bgImg: gis.png,
+      bgImg: gis.src,
       icons: [
         {
           component: <RiGithubLine fill='#2E77BD' size={20}/>,
@@ -40,7 +40,7 @@ const constants = {
     {
       title: 'Student-Performance-Data-Analysis',
       description: "Conducted data analysis on student performance using Python, encompassing data visualization, statistical summaries, and linear regression models for math and writing scores.",
-      bgImg: gis.png,
+      bgImg: gis.src,
       icons: [
         {
           component: <RiGithubLine fill='#2E77BD' size={20}/>,
@@ -52,7 +52,7 @@ const constants = {
       title: 'Data Analysis Portfolio',
       description: "Used ArcGIS Storymap to create a centralized location to display all my Data Science and GIS projects and\n" +
           "experience in greater detail.",
-      bgImg: gis.png,
+      bgImg: gis.src,
       icons: [
         {
           component: <MdOpenInNew fill='#2E77BD' size={20}/>,

@@ -14,6 +14,17 @@ const constants = {
   EVENTS: [
     {
       type: 'job',
+      date: 'Aug 2024 – Nov 2024',
+      jobTitle: 'GIS Library Associate',
+      company: "University Of Waterloo",
+      description: 'Data Science, Geographic Information Systems (GIS), Airphoto & Data Repository',
+      logo: {
+        alt: 'York Region',
+        img: uw.png
+      }
+    },
+    {
+      type: 'job',
       date: 'Jan 2024 – Apr 2024',
       jobTitle: 'Data Analytics Technician',
       company: "York Region - Corporate Services",
